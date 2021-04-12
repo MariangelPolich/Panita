@@ -3,8 +3,8 @@
 height: 10px;
 background-color: rgb(248, 248, 248);
 }
-#titulo { 
- 
+#titulo {
+
 background: rgba(240, 168, 230, 0.918);
 box-shadow: 0 5px 32px 0 rgba(101, 243, 236, 0.808);
 backdrop-filter: blur( 8.0px );
@@ -27,7 +27,7 @@ h4 {
     color: rgba(5, 5, 5, 0.815);
     }
 #contacto {
-    width: 80%; 
+    width: 80%;
     font-size: 14pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
@@ -42,9 +42,19 @@ border: 1px solid rgba(22, 247, 247, 0.884);
 }
 a {
     text-decoration: none;
-    color: rgba(5, 5, 5, 0.815);   
+    color: rgba(5, 5, 5, 0.815);
 }
 a :hover {
 color:rgb(231, 218, 227);
 transition: 0.4s;
 }
+
+.img-brand {
+    width: 90px;
+  }
+
+  @media screen AND (min-width:768px) {
+    .img-brand {
+      width: 200px;
+    }
+  }

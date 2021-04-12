@@ -1,21 +1,25 @@
 
 #blank  {
-height: 150px;
+height: 10px;
 background-color: rgb(248, 248, 248);
 }
-#titulo {   
-background: rgba(180, 172, 179, 0.918);
-box-shadow: 0 5px 32px 0 rgba(250, 108, 226, 0.808);
+#titulo { 
+ 
+background: rgba(240, 168, 230, 0.918);
+box-shadow: 0 5px 32px 0 rgba(101, 243, 236, 0.808);
 backdrop-filter: blur( 8.0px );
--webkit-backdrop-filter: blur( 7.0px );
+-webkit-backdrop-filter: blur( 10.0px );
 border-radius: 10px;
-border: 0px solid rgba(31, 25, 25, 0.18);
+border: 1px solid rgba(247, 25, 217, 0.774);
 }
  h1 {
+     font-size:26pt;
+     font-weight: bold;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    color: rgba(248, 72, 222, 0.788);
-    text-shadow: 7px, 4px, 3px, rgb(235, 57, 181);
- }
+    color: rgba(51, 42, 50, 0.637);
+    text-shadow:rgb(95, 231, 147), 5px 2px;
+  }
 
 
 h4 {
@@ -23,6 +27,7 @@ h4 {
     color: rgba(5, 5, 5, 0.815);
     }
 #contacto {
+    width: 80%; 
     font-size: 14pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
@@ -31,9 +36,9 @@ h4 {
     background: rgba(100, 218, 202, 0.918);
 box-shadow: 0 7px 22px 0 rgba(240, 63, 166, 0.808);
 backdrop-filter: blur( 12.0px );
--webkit-backdrop-filter: blur( 9.0px );
+-webkit-backdrop-filter: blur( 10.0px );
 border-radius: 10px;
-border: 0px solid rgba(31, 25, 25, 0.18);
+border: 1px solid rgba(22, 247, 247, 0.884);
 }
 a {
     text-decoration: none;

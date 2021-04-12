@@ -13,11 +13,33 @@ border: 0px solid rgba(31, 25, 25, 0.18);
 }
  h1 {
     text-align: center;
-    color: rgba(70, 51, 67, 0.788);
-    text-shadow: 4px 2px 3px, rgb(235, 39, 235);
+    color: rgba(248, 72, 222, 0.788);
+    text-shadow: 7px, 4px, 3px, rgb(235, 57, 181);
  }
+
 
 h4 {
     text-align:center;
     color: rgba(5, 5, 5, 0.815);
     }
+#contacto {
+    font-size: 14pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(19, 13, 13, 0.897);
+    background: rgba(100, 218, 202, 0.918);
+box-shadow: 0 7px 22px 0 rgba(240, 63, 166, 0.808);
+backdrop-filter: blur( 12.0px );
+-webkit-backdrop-filter: blur( 9.0px );
+border-radius: 10px;
+border: 0px solid rgba(31, 25, 25, 0.18);
+}
+a {
+    text-decoration: none;
+    color: rgba(5, 5, 5, 0.815);   
+}
+a :hover {
+color:rgb(231, 218, 227);
+transition: 0.4s;
+}

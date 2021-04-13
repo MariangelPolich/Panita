@@ -1,0 +1,26 @@
+#footer {
+    background-color: rgba(243, 243, 243, 0.87);
+    height: 200px;
+    }
+li {
+    text-decoration: none;
+}
+
+    a {
+        text-decoration: none;
+        color: rgba(5, 5, 5, 0.815);   
+    }
+
+    a:hover {
+    color:rgb(231, 218, 227);
+    transition: 0.4s;
+    }
+    button {
+        background-color: rgb(133, 156, 145) !important
+    }
+    #footertittle {
+        text-align:center;
+        font-weight: bold;
+        color: rgb(2, 156, 131);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }

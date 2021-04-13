@@ -6,3 +6,5 @@ Hola Pablón
 
 "$ git checkout -"
 Switched to branch 'pablon' whaaaaat
+
+Después de resolver conflictos, en VIM: esc + ":WQ". y pum, pijazo astral. 
